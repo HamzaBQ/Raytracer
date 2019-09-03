@@ -5,8 +5,8 @@ Dans ce projet, j'ai créé un lancer de rayon stochastique qui permet de synth�
 * Le dossier "code" contient : 
 
 	* Scene.cpp/.h: représente tout ce qui a relation avec le raytracer, les structures de données sont déclarée sur le.h
-	* Vector .cpp/.h: Défini une classe Vector, qui permet de faciliter les opérations de l'algèbre linéaire.
-	* main.cpp: c'est le pilote, qui définit la scéne, fait le rendu, et sauvegarde l'image sous le format d'un fichier.
+	* Vector .cpp/.h: définit une classe Vector, qui permet de faciliter les opérations de l'algèbre linéaire.
+	* main.cpp: c'est le pilote, qui définit la scène, fait le rendu, et sauvegarde l'image sous le format d'un fichier.
 
 
 * Le dossier 'models' qui contient des modèles.obj qui ont été utilisés pour tester le rendu des mailliages triangulaires.
@@ -25,8 +25,7 @@ Pour compiler le projet, il suffit de lancer la commande 'make' ou 'make raytrac
 	* Réflexion floue
 	* Path tracing (IG)
 	* matériel phong,transparent,mirroir
-	* Maillage
-	* Texture
+	* support de Maillage et de texture
 	
 # Screenshots 
 
